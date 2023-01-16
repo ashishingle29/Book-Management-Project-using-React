@@ -1,0 +1,32 @@
+#bigBoxBD{
+    padding: 5vh;
+    height: fit-content;
+    border: 0.2px solid white;
+    background-image: url(../../public/loginBc.png);
+    background-repeat: repeat;
+    background-size: 100% 200vh;
+}
+
+#container{
+    padding: 2vh;
+    margin-top: 2%;
+    /* border: 2px solid red; */
+    width: 50%;
+    height:fit-content;
+    color: rgb(189, 34, 200);
+   
+    margin-inline: 20%;
+   text-align: center;
+   border-radius: 10px;
+   background-color: rgb(236, 230, 237);
+   box-shadow: 10% black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.imputCB{
+    margin: 2vh;
+}

@@ -1,0 +1,47 @@
+#bookListBigBox{
+    height: fit-content;
+    border: 0.2px solid white;
+    background-image: url(../../public/loginBc.png);
+    background-repeat: repeat;
+    background-size: 100% 100vh;
+    
+}
+#allList{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid red;
+}
+.itemBox{
+    padding: 2vh;
+    margin: 3vh;
+    width: 30vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius:1vh ;
+    justify-content: center;
+    align-items: center;
+}
+
+#sideBox{
+    position: fixed;
+    width: 15vh;
+    height: 20vh;
+    padding: 2vh;
+    border: 2px solid black;
+    top: 18vh;
+    right: 7vh;
+    font-weight: bold;
+    
+    background-color: #dc2ada;
+    
+    text-decoration: none;
+    font-style: none;
+}
+
+
+#books{
+    width: 20vh;
+    height: 20vh;
+}

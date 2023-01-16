@@ -1,0 +1,16 @@
+#bigBoxHome {
+    height: 100vh;
+    border: 0.2px solid white;
+   
+    background-image: url(https://png.pngtree.com/background/20220729/original/pngtree-ebook-reader-application-banner-ereader-picture-image_1868437.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+   
+}
+
+.boxBtns{
+    text-align: center;
+    position: fixed;
+    top: 60vh;
+    right: 30vh;
+}
